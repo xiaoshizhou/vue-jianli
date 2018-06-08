@@ -2,7 +2,7 @@
    <div>
      <ul class="m-right" >
        <li v-for="item in routers">
-         <router-link tag="a"   :to="'/'+item.router" :class="{'m-r-ative': routeName===item.router}"> </router-link>
+         <router-link tag="a"   :to="'/'+item.router" > </router-link>
        </li>
 
 
@@ -16,7 +16,6 @@
       data(){
           return{
             routers:[{router:'home'},{router:'myMessage'},{router:'skill'},{router:'experience'},{router:'produce'},{router:'focusme'}],
-            routeName:true,
           }
       },
       watch:{

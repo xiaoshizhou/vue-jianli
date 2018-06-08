@@ -11,11 +11,13 @@ import FocusMe from '@/components/content/focusMe'
 Vue.use(Router)
 
 export default new Router({
-
+   mode:'history',
+ linkActiveClass:'m-r-ative',
   routes: [
     {
       path: '/',
       name: 'jianli',
+      redirect:'/home',
       component: jianli,
       children:[{
         path: 'home',

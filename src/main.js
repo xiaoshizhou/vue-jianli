@@ -15,4 +15,4 @@ new Vue({
   template: '<App/>'
 })
 
-router.replace('/home')
+//router.replace('/home')
