@@ -29,8 +29,9 @@
     padding: 50px;
   }
   .fm  span{
-    font-size: 25px;
+    
     padding: 5px;
+    font-size: 25px;
   }
   .fm  span:nth-of-type(1){
     color:red;
