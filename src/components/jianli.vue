@@ -126,8 +126,9 @@ export default {
     list-style: none;
   }
   a{
+  font-family: "微软雅黑";
     text-decoration: none;
-    font-family: "微软雅黑";
+    
   }
   html,body{
     width: 100%;
